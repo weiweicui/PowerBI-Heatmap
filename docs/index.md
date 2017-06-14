@@ -1,14 +1,14 @@
 ---
 title: Examples
 image_sliders:
-  - slider2
+  - slider1
 ---
 
 ## Background
 
 Heat maps, are a type of visualization to show data density on a map. They are particularly helpful when you have a lot of (e.g., tens of thousands of) data points on the map and are mainly in their overall distribution. Technically, in a heatmap, data points are aggregated locally and mapped to colors, so that we can make better sense of the density of the data from the colors while still being able to see and use the map.
 
-{% include slider.html selector="slider2" %}
+{% include slider.html selector="slider1" %}
 
 ## Where to Get It
 
