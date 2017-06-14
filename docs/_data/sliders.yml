@@ -2,14 +2,14 @@
   bullets: true
   captions: true
   images:
-    - src: /assets/screenshot.jpg
+    - src: /assets/screenshot.png
       alt: Minimum required attributes
-    - src: /assets/screenshot1.jpg
+    - src: /assets/screenshot1.png
       alt: Use data-src for on-demand loading
-    - src: /assets/screenshot2.jpg
+    - src: /assets/screenshot2.png
       alt: Use data-src for on-demand loading
-    - src: /assets/screenshot3.jpg
+    - src: /assets/screenshot3.png
       alt: Use data-src for on-demand loading
   settings:
     height: "'auto'"
-    effect: "'fade'"
+    effect: "'slide'"
