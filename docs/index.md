@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 image_sliders:
   - slider1
 ---
