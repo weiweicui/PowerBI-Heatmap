@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Document
+title: PowerBI - Heatmap Custom Visual
 image_sliders:
   - slider1
 ---
