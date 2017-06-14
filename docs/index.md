@@ -1,5 +1,5 @@
 ---
-title: Examples
+layout: home
 image_sliders:
   - slider1
 ---
