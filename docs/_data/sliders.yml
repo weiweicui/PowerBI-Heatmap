@@ -11,5 +11,5 @@
     - src: /assets/screenshot3.png
       alt: Use data-src for on-demand loading
   settings:
-    height: "'auto'"
+    height: "300px"
     effect: "'slide'"

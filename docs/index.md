@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Document
 image_sliders:
   - slider1
 ---
