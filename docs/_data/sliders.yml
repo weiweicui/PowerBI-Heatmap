@@ -1,0 +1,15 @@
+- selector: slider1
+  bullets: true
+  captions: true
+  images:
+    - src: /assets/screenshot.jpg
+      alt: Minimum required attributes
+    - src: /assets/screenshot1.jpg
+      alt: Use data-src for on-demand loading
+    - src: /assets/screenshot2.jpg
+      alt: Use data-src for on-demand loading
+    - src: /assets/screenshot3.jpg
+      alt: Use data-src for on-demand loading
+  settings:
+    height: "'auto'"
+    effect: "'fade'"
