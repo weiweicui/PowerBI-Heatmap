@@ -1,10 +1,7 @@
-theme: jekyll-theme-slate
 title: PowerBI - Heatmap Custom Visual
 
 # Config settings
 baseurl: ""
 
 # Build settings
-theme: jekyll-theme-slate
-gems:
-  - jekyll-feed
+theme: minima
