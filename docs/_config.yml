@@ -5,6 +5,6 @@ title: PowerBI - Heatmap Custom Visual
 baseurl: ""
 
 # Build settings
-theme: minima
+theme: jekyll-theme-slate
 gems:
   - jekyll-feed
