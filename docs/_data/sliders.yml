@@ -2,10 +2,11 @@
   bullets: true
   captions: true
   images:
-    - src: /assets/screenshot.png
-    - src: /assets/screenshot1.png
-    - src: /assets/screenshot2.png
-    - src: /assets/screenshot3.png
+    - src: /assets/07.jpg
+    - src: /assets/06.gif
+    - src: /assets/08.jpg
+    - src: /assets/09.jpg
+    - src: /assets/10.jpg
   settings:
     height: 300
     effect: "'slide'"
