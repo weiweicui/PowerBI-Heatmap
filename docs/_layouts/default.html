@@ -10,7 +10,9 @@
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
         {{ content }}
+        {% if page.image_sliders or layout.image_sliders or page.image_sliders_load_all %}
         {% include disqus_comments.html %}
+        {% endif %}
       </div>
     </main>
 
