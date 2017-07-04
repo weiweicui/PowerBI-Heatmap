@@ -37,7 +37,7 @@ This visual has been submitted to Office Store and will appear there shortly. Me
     * **First/Last**: Sort all groups, then choose the max value of the first/last group.
     * **Manual**: Directly take the user input.
   * **Contour map**: Customize the color mapping scheme for the `Contour` type. Here you can give at-most five thresholds to set different colors. The thresholds can be set
-      * either relative to the max aggregated value that are decided by **Renderer - Measure**,
+      * either relative to the max aggregated value that is decided by **Renderer - Measure**,
       * or using absolute values.
   * **Heat map**: Customize the color mapping scheme for the `Heat` type. You need to give five values between 0 and 1 (relative to the aforementioned max aggregated value) and five colors.
   * **Animation - Freezing/Morphing**: How long (in seconds) the playback will pause for each group or animate from one group to the next one.
