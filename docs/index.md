@@ -21,6 +21,8 @@ Heat maps are a type of visualization to show data density on a map. They are pa
 This visual has been submitted to Office Store and will appear there shortly. Meanwhile, you can find them in the [_dist_](https://github.com/weiweicui/PowerBI-Heatmap/tree/master/dist) folder of this [_repo_](https://github.com/weiweicui/PowerBI-Heatmap).
 
 # How to Use
+<span style="color:#e83929">This visual requires **WebGL**, which however may not be supported by every device. In case of seeing the "not-supported error", you may need to try a different machine. Sorry about the limitation.</span>
+
 * Required fields:
   * **Location (ID)**: Values in this field are used to identify different geo-coordinates. They may be treated as addresses (or zip codes) and used to query geo-locations (through [Bing Maps REST Services](https://msdn.microsoft.com/en-us/library/ff701713.aspx)) if latitude/longitude are not specified. Please note that integer values in this field are directly treated as zip codes when geocoding.
 * Optional fields:
