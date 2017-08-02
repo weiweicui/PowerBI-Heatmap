@@ -20,15 +20,25 @@ Heat maps are a type of visualization to show data density on a map. They are pa
 
 This visual can be downloaded from [Office Store](https://store.office.com/en-us/app.aspx?assetid=WA104381072&ui=en-US&rs=en-US&ad=US&appredirect=false) or the [_dist_](https://github.com/weiweicui/PowerBI-Heatmap/tree/master/dist) folder of this [_repo_](https://github.com/weiweicui/PowerBI-Heatmap).
 
-# How to Use
+* Update 1.0:
+  * **Location (ID)** is required in this version to identify different geo-coordinates.
+
+* Update 1.1:
+  * **Location (ID)** is no longer a must. You can direcly use geo-coordinates to place data. 
+  * Add **Map control** format: Map-related controls are moved here (from **Advance**). Some more controls are added, such as map type.
+  * Add **Map element** format: If you find some map element distracting, you can turn them off here to give you a clearer background.
+  
+
+# How to Use (For the latest version)
 <span style="color:#e83929">This visual requires **WebGL**, which however may not be supported by every device. In case of seeing the "not-supported error", you may need to try a different machine. Sorry about the limitation.</span>
 
-* Required fields:
+* Required fields (You only need one of these two fields):
   * **Location (ID)**: Values in this field are used to identify different geo-coordinates. They may be treated as addresses (or zip codes) and used to query geo-locations (through [Bing Maps REST Services](https://msdn.microsoft.com/en-us/library/ff701713.aspx)) if latitude/longitude are not specified. Please note that integer values in this field are directly treated as zip codes when geocoding.
-* Optional fields:
   * **Latitude/Longitude**: These fields specify the geo-locations of data points. If both are specified, the geocoding will not happen.
-  * **Value**: This field specifies the exact values associated to the addresses. They have to be numerical. The default value is 1.
-  * **Group**: Data points will be split into groups based on this field. If this field is set. **Group** and **Animation** features will be enabled in the format panel. For example, if your data points have timestamps, you can group them based on the timestamps, then either 1) selectively show the heatmap for some specific timestamps or 2) run an animation to see the heatmap changing over time.
+
+* Optional fields:  
+  * **Value**: This field specifies the exact values associated to the addresses. They have to be numerical. The default value is 1.
+  * **Group**: Data points will be split into multiple groups based on this field. Once this field is specified, **Group** and **Animation** features will be enabled in the format panel. For example, if your data points have timestamps, you can group them based on the timestamps, then either 1) selectively show the heatmap for some specific timestamps or 2) run an animation to see the heatmap changing over time.
 * Special settings:
   * **Renderer - Type**: You can choose between `Heat` and `Contour`.
   * **Renderer - Radius**: It defines how close two data points can be aggregated together. If you like to see more details, you may reduce the value.
@@ -43,7 +53,8 @@ This visual can be downloaded from [Office Store](https://store.office.com/en-us
       * or using absolute values.
   * **Heat map**: Customize the color mapping scheme for the `Heat` type. You need to give five values between 0 and 1 (relative to the aforementioned max aggregated value) and five colors.
   * **Animation - Freezing/Morphing**: How long (in seconds) the playback will pause for each group or animate from one group to the next one.
-  * **Map - Language**: Choose a specific language for the background map.
-  * **Map - Cache**: Store the geocoding results, so they can be reused when you open the report next time. Otherwise, the geocoding process will be repeated, which is quite slow. But caching many locations also may increase your file size.
-
+  * **Advance - Cache**: Store the geocoding results, so they can be reused when you open the report next time. Otherwise, the geocoding process will be repeated, which is quite slow. But caching many locations also may increase your file size.
+  * **Map control - Language**: Choose a specific language for the background map.
+  * **Map control - Type**: Choose between road style and aerial style.
+  * **Map element**: If you find some map element distracting, you can turn them off here to give you a clearer background.
 * Need more help? Please leave a comment below.
