@@ -5,3 +5,11 @@ baseurl: "PowerBI-Heatmap"
 
 # Build settings
 theme: minima
+
+# checklist:
+# a. _data/sliders.yml: change the images
+# b. _incudes/disqus_comments.html: change the forum id
+# c. index.md: title and content
+
+disqus: weiweicui-heatmap
+name: https://weiweicui.github.io/PowerBI-Heatmap/
