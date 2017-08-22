@@ -23,7 +23,7 @@ This visual can be downloaded from [Office Store](https://store.office.com/en-us
 * Update 1.0:
   * **Location (ID)** is required in this version to identify different geo-coordinates.
 
-* Update 1.1:
+* Update 1.1.2:
   * **Location (ID)** is no longer a must. You can direcly use geo-coordinates to place data. 
   * Add **Map control** format: Map-related controls are moved here (from **Advance**). Some more controls are added, such as map type.
   * Add **Map element** format: If you find some map element distracting, you can turn them off here to give you a clearer background.
