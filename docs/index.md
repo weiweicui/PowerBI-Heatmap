@@ -23,11 +23,14 @@ This visual can be downloaded from [Office Store](https://store.office.com/en-us
 * Update 1.0:
   * **Location (ID)** is required in this version to identify different geo-coordinates.
 
-* Update 1.1.2:
+* Update 1.1.3:
   * **Location (ID)** is no longer a must. You can direcly use geo-coordinates to place data. 
   * Add **Map control** format: Map-related controls are moved here (from **Advance**). Some more controls are added, such as map type.
   * Add **Map element** format: If you find some map element distracting, you can turn them off here to give you a clearer background.
-  
+
+* Update 1.1.4:
+  * Resolve (likely) the issue of "cannot directly drag-and-drop geo-coordinates".
+  * Add **Map control** - **Auto fit**. Now the visual can automatically fit every point in the view when the input data is changed.  
 
 # How to Use (For the latest version)
 <span style="color:#e83929">This visual requires **WebGL**, which however may not be supported by every device. In case of seeing the "not-supported error", you may need to try a different machine. Sorry about the limitation.</span>
