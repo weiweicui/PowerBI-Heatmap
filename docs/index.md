@@ -20,7 +20,7 @@ Heat maps are a type of visualization to show data density on a map. They are pa
 
 This visual can be downloaded from [Office Store](https://store.office.com/en-us/app.aspx?assetid=WA104381072&ui=en-US&rs=en-US&ad=US&appredirect=false) or the [_dist_](https://github.com/weiweicui/PowerBI-Heatmap/tree/master/dist) folder of this [_repo_](https://github.com/weiweicui/PowerBI-Heatmap).
 
-* Update 1.0:
+* Update 1.0.X:
   * **Location (ID)** is required in this version to identify different geo-coordinates.
 
 * Update 1.1.3:
@@ -29,8 +29,15 @@ This visual can be downloaded from [Office Store](https://store.office.com/en-us
   * Add **Map element** format: If you find some map element distracting, you can turn them off here to give you a clearer background.
 
 * Update 1.1.4:
-  * Resolve (likely) the issue of "cannot directly drag-and-drop geo-coordinates".
-  * Add **Map control** - **Auto fit**. Now the visual can automatically fit every point in the view when the input data is changed.  
+  * Fix (likely) the issue of "cannot directly drag-and-drop geo-coordinates".
+
+* Update 1.1.5:
+  * Refine **Map control - Type**: Add several built-in styles.
+  * Add **Map control** - **Auto fit**. Now the visual can automatically fit every point in the view when the input data is changed.
+  * Fix some bugs.
+
+* Update 1.1.6:
+  * Handle the extreme case when no valid locations available.
 
 # How to Use (For the latest version)
 <span style="color:#e83929">This visual requires **WebGL**, which however may not be supported by every device. In case of seeing the "not-supported error", you may need to try a different machine. Sorry about the limitation.</span>
