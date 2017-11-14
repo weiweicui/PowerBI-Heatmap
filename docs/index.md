@@ -18,6 +18,8 @@ Heat maps are a type of visualization to show data density on a map. They are pa
 
 # Where to Get It
 
+<span style="color:#e83929">Seems that the store version cannot be loaded correctly into PBI. This issue will be fixed shortly. Meantime, please use the latest beta version in the the [_dist_](https://github.com/weiweicui/PowerBI-Heatmap/tree/master/dist) folder instead.</span>
+
 This visual can be downloaded from [Office Store](https://store.office.com/en-us/app.aspx?assetid=WA104381072&ui=en-US&rs=en-US&ad=US&appredirect=false) or the [_dist_](https://github.com/weiweicui/PowerBI-Heatmap/tree/master/dist) folder of this [_repo_](https://github.com/weiweicui/PowerBI-Heatmap).
 
 * Update 1.0.X:
