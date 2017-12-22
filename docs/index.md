@@ -18,7 +18,7 @@ Heat maps are a type of visualization to show data density on a map. They are pa
 
 # Where to Get It
 
-<span style="color:#e83929">Seems that the store version cannot be loaded correctly into PBI. This issue will be fixed shortly. Meantime, please use the latest version in the [_dist_](https://github.com/weiweicui/PowerBI-Heatmap/tree/master/dist) folder instead.</span>
+<span style="color:#e83929">Bingmap v7 is terminated, so old versions (including the one in Office Store) cannot be correctly loaded into PBI. I will upload a correct version soon. Meantime, please use the latest version in the [_dist_](https://github.com/weiweicui/PowerBI-Heatmap/tree/master/dist) folder instead.</span>
 
 This visual can be downloaded from [Office Store](https://store.office.com/en-us/app.aspx?assetid=WA104381072&ui=en-US&rs=en-US&ad=US&appredirect=false) or the [_dist_](https://github.com/weiweicui/PowerBI-Heatmap/tree/master/dist) folder of this [_repo_](https://github.com/weiweicui/PowerBI-Heatmap).
 
@@ -40,7 +40,8 @@ This visual can be downloaded from [Office Store](https://store.office.com/en-us
   * Fix the bug that cannot cancel geocoding.
 * Update 1.1.8:
   * Fix the bug that misplaces the color legend.
-  
+* Update 1.1.9:
+  * Show an error message when WebGL is not supported (instead of showing nothing).
 
 # How to Use (For the latest version)
 <span style="color:#e83929">This visual requires **WebGL**, which however may not be supported by every device. In case of seeing the "not-supported error", you may need to try a different machine. Sorry about the limitation.</span>
